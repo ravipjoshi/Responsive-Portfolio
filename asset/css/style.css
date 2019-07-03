@@ -150,3 +150,83 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+
+@media screen and (max-width: 980px) {
+  
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+  .main-section{
+
+    margin: 20px 0 500px;
+  } 
+
+  
+
+}
+
+@media screen and (max-width: 640px) {
+  nav{
+     text-align: center;
+     float:inherit;
+  }
+  #logo{
+    width:100%;
+    text-align: center;
+
+  }
+  .main-section{
+
+    margin: 40px 0 40px;
+  }  
+  .auth-image{
+    width:100%;
+  }
+ .work{
+
+  width: 100%;
+ }
+ 
+}
